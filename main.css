@@ -1,0 +1,7 @@
+body * {.btn-bootstrap {
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color .15s ease-in-out;
+  }
