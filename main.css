@@ -1,5 +1,3 @@
-* Valores <display-outside> * 
-
-display: block:;
-display: inline;
-display: run-in;
+#cajasdecorreo {
+    text-align: center;
+}
