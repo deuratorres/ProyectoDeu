@@ -22,8 +22,9 @@
             <h1<><b>DIMAR EMB Assistant/Alta de Productos</b></h1>
         </head>
         <body><div>
+            <form action="" name="formulario" method="get">
             <div class="input-group mb-3">
-                <span class="btn btn-lg btn-primary btn-block btn-signin" id="fecha" required>Fecha</span>
+                <span class="btn btn-lg btn-primary btn-block btn-signin" id="Fecha" required>Fecha</span>
                 <input type="text" class="form-control" placeholder="Día/Mes/Año" aria-label="Username" aria-describedby="basic-addon1">
               </div>
               <div class="input-group mb-3">
@@ -61,7 +62,21 @@
               
               <script>
 (function(){
-    var formulario = forms
+    var formulario = document.getElementsByName ("formulario")[0],
+    elementos = formulario.elements,
+    boton = document.getElementById ("btn");
+
+    var validarFecha = function() {
+        if (formulario.Fecha.value == 0) {
+            alert ("Completa el campo Fecha");
+        }
+    };
+var validar = function  (){
+    validarFecha (); 
+};
+
+
+formulario.addEventListener("submit", validar);
 }
               </script>
 
