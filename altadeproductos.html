@@ -1,91 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel ="stylesheet" type= "text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  
-
-        <title>EMB Assistant/AltadeProductos</title>
-    </head>
-    <body>
-        <div>
-                <h1<><b>DIMAR EMB Assistant/index</b></h1>
-                <img src="logocondimar.png" style="max: width auto;width:auto;height:auto;">
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-                <body style="background-color:#54775e;"> </body>
-                <body <link rel ="stylesheet" type= "text/css" href="main.css"
-             </div>
-    <body><div>
-        <body style="background-color:#54775e;"> </body>
-        <div>
-            <h1<><b>DIMAR EMB Assistant/Alta de Productos</b></h1>
-        </head>
-        <body><div>
-            <form action="" name="formulario" method="get">
-            <div class="input-group mb-3">
-                <span class="btn btn-lg btn-primary btn-block btn-signin" id="Fecha" required>Fecha</span>
-                <input type="text" class="form-control" placeholder="Día/Mes/Año" aria-label="Username" aria-describedby="basic-addon1">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>EMB Assistant/AltadeProductos</title>
+</head>
+<body style="background-color:#54775e;">
+  <div class="container">
+    <h1>DIMAR EMB Assistant/index</h1>
+    <img src="logocondimar.png" style="width: 500px; height: auto;">
+    <div>
+      <div>
+        <h1<><b>DIMAR EMB Assistant/Alta de Productos</b></h1>
+          <div>
+            <form name="formularioVentas">
+              <div class="input-group mb-3">
+                <label class="btn btn-lg btn-primary btn-block btn-signin" required>Fecha</label>
+                <input name="fecha" type="text" class="form-control" placeholder="Día/Mes/Año">
               </div>
               <div class="input-group mb-3">
-                <span class="btn btn-lg btn-primary btn-block btn-signin" id="Folio"required>Folio</span>
-                <input type="text" class="form-control" placeholder="Número Consecutivo" aria-label="Username" aria-describedby="basic-addon1">
+                <label class="btn btn-lg btn-primary btn-block btn-signin" required>Folio</label>
+                <input name="folio" type="text" class="form-control" placeholder="Número Consecutivo">
               </div>
               <div class="input-group mb-3">
-                <span class="btn btn-lg btn-primary btn-block btn-signin" id="Hora"required>Hora</span>
-                <input type="text" class="form-control" placeholder="Horario de salida o entrada" aria-label="Username" aria-describedby="basic-addon1">
+                <label class="btn btn-lg btn-primary btn-block btn-signin" id="Hora" required>Hora</label>
+                <input name="hora" type="text" class="form-control" placeholder="Horario de salida o entrada">
               </div>
               <div class="input-group mb-3">
-                <span class="btn btn-lg btn-primary btn-block btn-signin" id="Clave del Cliente"required>Clave del Cliente</span>
-                <input type="text" class="form-control" placeholder="Clave asignada al cliente" aria-label="Username" aria-describedby="basic-addon1">
+                <label class="btn btn-lg btn-primary btn-block btn-signin" id="Clave del Cliente" required>Clave
+                  del Cliente</label>
+                <input name="clave" type="text" class="form-control" placeholder="Clave asignada al cliente">
               </div>
               <div class="input-group mb-3">
-                <span class="btn btn-lg btn-primary btn-block btn-signin" id="Nombre de Cliente"required>Nombre de Cliente</span>
-                <input type="text" class="form-control" placeholder="Razón Social del Cliente" aria-label="Username" aria-describedby="basic-addon1">
+                <label class="btn btn-lg btn-primary btn-block btn-signin" id="Nombre de Cliente" required>Nombre
+                  de Cliente</label>
+                <input name="nombre" type="text" class="form-control" placeholder="Razón Social del Cliente">
               </div>
               <div class="input-group mb-3">
-                <span class="btn btn-lg btn-primary btn-block btn-signin" id="Transporte"required>Transporte</span>
-                <input type="text" class="form-control" placeholder="Tipo de transporte utilizado" aria-label="Username" aria-describedby="basic-addon1">
+                <label class="btn btn-lg btn-primary btn-block btn-signin" id="Transporte" required>Transporte</label>
+                <input name="transporte" type="text" class="form-control" placeholder="Tipo de transporte utilizado">
               </div>
               <div class="input-group mb-3">
-                <span class="btn btn-lg btn-primary btn-block btn-signin" id="Responsable"required>Responsable</span>
-                <input type="text" class="form-control" placeholder="Nombre y número de empleado" aria-label="Username" aria-describedby="basic-addon1">
+                <label class="btn btn-lg btn-primary btn-block btn-signin" id="Responsable" required>Responsable</label>
+                <input name="responsable" type="text" class="form-control" placeholder="Nombre y número de empleado">
               </div>
               <div class="input-group mb-3">
-                <span class="btn btn-lg btn-primary btn-block btn-signin" id="Materiales"required>Materiales</span>
-                <input type="text" class="form-control" placeholder="Listado de Materiales" aria-label="Username" aria-describedby="basic-addon1">
+                <label class="btn btn-lg btn-primary btn-block btn-signin" id="Materiales" required>Materiales</label>
+                <input name="materiales" type="text" class="form-control" placeholder="Listado de Materiales">
               </div>
-              <form>
-                  <input type="submit" class="btn btn-lg btn-primary btn-block btn-signin" value="Enviar Datos" 
-                </form>
-              </div>
-              
-              <script>
-(function(){
-    var formulario = document.getElementsByName ("formulario")[0],
-    elementos = formulario.elements,
-    boton = document.getElementById ("btn");
-
-    var validarFecha = function() {
-        if (formulario.Fecha.value == 0) {
-            alert ("Completa el campo Fecha");
+            </form>
+            <button type="submit" onclick="validateForm()" class="btn btn-lg btn-primary btn-block btn-signin">
+              Enviar Datos
+            </button>
+          </div>
+          <footer>
+            <a href="https://isitmx.com" target="_blank">www.isitmx.com</a>
+            <img src="logoisit.png" style="max-width:50px;width:auto;height:auto;">
+          </footer>
+      </div>
+      <script>
+        function validateForm() {
+          let inputEnFormulario = Array.from(document.formularioVentas);
+          const camposAValidar = inputEnFormulario.map(elem => { if (elem.value === '') return elem.name })
+          alert(`Los campos a validar son ${[...camposAValidar]}`)
         }
-    };
-var validar = function  (){
-    validarFecha (); 
-};
-
-
-formulario.addEventListener("submit", validar);
-}
-              </script>
-
-              <br
-              <footer>
-  <font color= "white"> Creado por:</font>  <br>
-  <a href="https://isitmx.com" target="_blank">www.isitmx.com</a>
-  <img src="logoisit.png" style="max-width:50px;width:auto;height:auto;">
-</footer>
-
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
 </html>
-     </div></body>
